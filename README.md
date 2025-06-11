@@ -1,12 +1,38 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 Product Management Admin Panel
 
-Currently, two official plugins are available:
+A modern React-based admin dashboard for managing products, built with **Vite**, **Bootstrap**, and **Axios**. This application allows administrators to add, view, edit, delete, and manage product listings, while providing a user-friendly client interface to search, filter, sort, and add products to a cart with offcanvas support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 👩‍💼 Admin Panel
+- View product list in a data table
+- Add new products
+- Edit or delete existing products
+- Responsive sidebar and header layout
+- Uses Axios to interact with backend APIs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛍️ Client Interface
+- Grid view of products
+- Search, sort, and category filter
+- Add to cart functionality with:
+  - Offcanvas cart view
+  - Quantity increase/decrease
+  - Remove from cart
+- Real-time cart count in the navbar
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 💅 Bootstrap 5
+- 📦 Axios
+- 🎨 React Icons
+
+---
+
+## 📂 Project Structure
+
